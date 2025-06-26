@@ -4,6 +4,8 @@ from the_logic import Hello
 from key_directions import Positioning
 import time
 import random
+
+
 def food_func():
     food.goto(random.randint(-380, 380), random.randint(-380, 380))
     food.showturtle()
