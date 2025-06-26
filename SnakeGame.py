@@ -8,11 +8,6 @@ def food_func():
     food.goto(random.randint(-380, 380), random.randint(-380, 380))
     food.showturtle()
 
-# def game_over():
-#     Hello.u = False
-#     screen.bye()
-#     print(f"Game Over! Final Score: {Hello.score}")
-
 screen = Screen()
 screen.bgcolor("black")
 screen.title("The Snake Game")

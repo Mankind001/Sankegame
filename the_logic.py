@@ -6,9 +6,6 @@ from tkinter import messagebox
 from score import Score
 
 
-
-
-
 scoreboard = Score(-240, 360, 0)
 class Hello:
     current_direction = 0
@@ -76,11 +73,6 @@ class Hello:
         if abs(head.xcor()) >= 390 or abs(head.ycor()) >= 390:
             Hello.game_over()
 
-    # @staticmethod
-    # # def check_body_collision(p):
-    # #     for segment in p[1:]:
-    # #         if p[0].distance(segment) < 10:
-    # #             Hello.game_over()
 
     @staticmethod
     def game_over():
